@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="10dp"
+                    card_view:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="#fff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+
+                            android:src="@drawable/logo" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                    android:elevation="10dp"
+                    card_view:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+
+                            android:orientation="vertical">
+
+                            <android.support.v7.widget.CardView
+
+                                android:id="@+id/teamPerformance"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:elevation="5dp"
+                                card_view:cardElevation="5dp"
+                                >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="#fff"
+                                    android:orientation="vertical"
+                                    android:padding="5dp">
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="200dp"
+                                        android:src="@drawable/team" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="15dp"
+                                        android:gravity="center"
+                                        android:text="Team Performance"
+                                        android:textColor="#1DB4F9"
+                                        android:textSize="14dp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+
+                            </android.support.v7.widget.CardView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <android.support.v7.widget.CardView
+                                android:id="@+id/ourTeam"
+                                android:layout_width="match_parent"
+
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:elevation="5dp"
+
+                                card_view:cardElevation="5dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:background="#fff"
+                                    android:orientation="vertical"
+                                    android:padding="5dp">
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/our_team" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="Our Team"
+                                        android:textColor="#1DB4F9"
+                                        android:textSize="14dp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+
+                            </android.support.v7.widget.CardView>
+
+
+                            <android.support.v7.widget.CardView
+                                android:id="@+id/getLocation"
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:elevation="5dp"
+                                android:padding="10dp"
+                                card_view:cardElevation="5dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+
+                                    android:background="#fff"
+                                    android:orientation="vertical"
+                                    android:padding="5dp">
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/location" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:gravity="center"
+                                        android:text="Get Location"
+                                        android:textColor="#1DB4F9"
+                                        android:textSize="14dp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+
+                            </android.support.v7.widget.CardView>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:elevation="10dp"
+                    card_view:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/expences"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:layout_weight="1"
+                            android:elevation="10dp"
+                            android:padding="10dp"
+                            card_view:cardElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="#fff"
+                                android:orientation="vertical"
+                                android:padding="5dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/expense" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="10dp"
+                                    android:gravity="center"
+                                    android:text="Expense"
+                                    android:textColor="#1DB4F9"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/salesTarget"
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+
+                            android:layout_weight="1"
+                            android:elevation="10dp"
+                            android:padding="10dp"
+                            card_view:cardElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="#fff"
+                                android:orientation="vertical"
+                                android:padding="5dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/sales" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="10dp"
+                                    android:gravity="center"
+                                    android:text="Sales Target"
+                                    android:textColor="#1DB4F9"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/report"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:layout_weight="1"
+                            android:elevation="5dp"
+                            android:padding="10dp"
+                            card_view:cardElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="#fff"
+                                android:orientation="vertical"
+                                android:padding="5dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/report" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="10dp"
+                                    android:gravity="center"
+                                    android:text="Report"
+                                    android:textColor="#1DB4F9"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+                    android:id="@+id/communicate"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="10dp"
+                    card_view:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="#fff"
+                        android:gravity="right"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:gravity="right"
+
+                            android:src="@drawable/add" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+    </ScrollView>
+</LinearLayout>
